@@ -1,0 +1,69 @@
+*{
+    font-weight: bold;
+}
+body{
+    overflow-x: hidden;
+}
+#title{
+    position: relative;
+}
+@media(max-width:576px){
+   
+    body{
+        background-image: url("luxury-birthday-cake_115919-22501.avif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+        color: black;
+        width: 100%;
+        height: 100%;
+        
+    }
+    form,label{
+        color: rgb(201, 143, 156);
+    }
+    #title{
+        color: rgb(77, 73, 73);
+    }
+}
+@media(min-width:768px){
+    body{
+        background-image: url("happy-birthday-cake-with-candles-hat_188544-975.avif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+       
+    }
+    form,label{
+        color: black;
+    }
+    #title{
+        color: black;
+    }
+}
+@media (min-width:992px) {
+    body{
+        background-image: url("360_F_563620783_9icanRCanLxCe2h7SzwhSQvoEqS9RWSG.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    form,label{
+        color: white;
+    }
+    #title{
+        color: white;
+    }
+}
+#abi{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(48, 42, 42);
+    width: 100%;
+    height: 70px;
+}
